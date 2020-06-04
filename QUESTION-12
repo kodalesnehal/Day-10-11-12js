@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+   
+    <body > 
+       
+        <label>MATHMATICS=1000rs</label>
+        <input type="checkbox" name="book" value=200><br/>
+        <label>ENGLISH=500rs</label>
+        <input type="checkbox" name="book" value=300><br/>
+        <label>CHEMESTRY=450rs</label>
+        <input type="checkbox" name="book" value=400><br/>
+        <input type="text" id="t">
+        <button type="button" onclick="total()">Total</button><br/>
+        
+        <script>
+           function total(){
+               
+               var a = document.getElementsByName("book");
+               var price=0
+              for(let i=0;i<a.length;i++)
+               {
+                   if(a[i].checked)
+                   {
+                       price=parseInt(a[i].value)+parseInt(price)
+                   }
+               }
+               document.getElementById("t").value=price
+           }
+        </script>
+    </body>
+</html>
