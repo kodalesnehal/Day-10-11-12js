@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <input type="text" id="1">
+    <span id="2"></span>
+    <button type="button" onclick="disp()">click</button>
+<script>
+    function disp(){
+var a=document.getElementById("1").value
+if(a==0)
+{
+    try{
+   throw "please enter a value"}
+   catch(err){
+   document.write(err)
+   }
+}
+}
+    
+</script>
+</body>
+</html>
