@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <body > 
+        <input id="myName" onfocus="changeColor()"><br/>
+        <label>green</label>
+        <input type="radio" name="color" value="red"><br/>
+        <label>red</label>
+        <input type="radio" name="color" value="green"><br/>
+        <label>pink</label>
+        <input type="radio" name="color" value="blue"><br/>
+        
+        <script>
+           function changeColor(){
+               
+               var ele = document.getElementsByName("color");
+
+               for(let i=0;i<ele.length;i++){
+                   if(ele[i].checked){
+                       document.getElementById("myName").style.color = ele[i].value;
+                   }
+               }
+           }
+        </script>
+    </body>
+</html>
