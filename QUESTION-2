@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+    <body > 
+        <h1 id="myName" style="text-align:left;">SNEHAL</h1>
+        <button onclick="changeAlignment()">change alignment</button>
+        <script>
+           function changeAlignment(){
+               document.getElementById("myName").style.textAlign="right";
+           }
+        </script>
+    </body>
+</html>
