@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+       <style>
+           #myName{
+               background-color: blue;
+               color: white;
+           }
+       </style>
+    <body > 
+        <p id="myName" >SNEHAL</p>
+        <button onclick="myFun()">Reverse</button>
+        <script>
+           function myFun(){
+               document.getElementById("myName").style.color = "blue";
+               document.getElementById("myName").style.backgroundColor="white";
+
+           }
+        </script>
+    </body>
+</html>
