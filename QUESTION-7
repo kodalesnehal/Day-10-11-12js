@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    
+<body>
+  <p id="1">My name is Snehal</p>
+  <p id="2">I am from Latur</p>
+  <p id="3">I am studying in VITA</p>
+<script>
+var a= document.getElementsByTagName("p")
+for(let i=0;i<a.length;i++)
+{
+    a[i].style.background="purple"
+}
+var b=a.length
+document.write(b)
+
+</script>
+
+
+</body>
+</html>
