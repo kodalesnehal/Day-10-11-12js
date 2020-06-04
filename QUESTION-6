@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    
+<body>
+  <input type="number" id="1">
+  <input type="number" id="2">
+  <input type="text" id="3">
+  <button type="button" id="4" onclick="add()">add</button>
+  <button type="button" id="5" onclick="subtract()">sub</button>
+<script>
+function add()
+{
+    var a=parseInt(document.getElementById("1").value)
+var b=parseInt(document.getElementById("2").value)
+var d=document.getElementById("3")
+var c=a+b
+
+
+d.value=c
+}
+function subtract()
+{
+    var a=document.getElementById("1").value
+var b=document.getElementById("2").value
+var c=a-b
+var d=document.getElementById("3")
+
+d.value=c
+}
+
+</script>
+</body>
+</html>
