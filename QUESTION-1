@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+    <body > 
+        <h1 id="myName" style="color: red;">SNEHAL</h1>
+        <button onclick="changeColor()">change colour</button>
+        <script>
+           
+            function changeColor()
+            {
+                document.getElementById("myName").style.color = "purple";
+            }
+
+        </script>
+    </body>
+</html>
